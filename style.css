@@ -1,0 +1,25 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+
+img {
+    object-fit: contain;
+}
+
+h1,
+h3,
+h5 {
+    font-family: 'montserrat', sans-serif;
+}
+
+.card-img-top {
+    height: 400px;
+}
+
+.card {
+    min-height: 200px;
+}
+
+.hidden {
+    display: none;
+}
