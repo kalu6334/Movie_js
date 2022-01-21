@@ -12,7 +12,7 @@ const fetchFilms = async() => {
         date: ''
     };
     films = await fetch(
-        `http://www.omdbapi.com/?apikey=${myApiKey}=` + searchTerm).then(res =>
+        `https://www.omdbapi.com/?apikey=${myApiKey}=` + searchTerm).then(res =>
         res.json());
 
 
